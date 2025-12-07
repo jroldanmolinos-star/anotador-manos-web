@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soporte - Anotador de Manos Poker</title>
+    <meta name="description" content="Centro de soporte de Anotador de Manos Poker. Contactanos para resolver tus dudas.">
+    <link rel="icon" type="image/png" href="/icon.png">
+    <style>
+        :root {
+            --primary: #1a5f2a;
+            --primary-light: #2d8a3e;
+            --bg: #f5f3ed;
+            --card-bg: #ffffff;
+            --text: #1a1a1a;
+            --text-secondary: #666;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        /* Nav */
+        nav {
+            background: var(--card-bg);
+            padding: 15px 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+        
+        nav .nav-container {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        nav .brand {
+            font-weight: 700;
+            color: var(--primary);
+            text-decoration: none;
+            font-size: 1.2rem;
+        }
+        
+        nav .links a {
+            color: var(--text);
+            text-decoration: none;
+            margin-left: 25px;
+            font-weight: 500;
+            transition: color 0.2s;
+        }
+        
+        nav .links a:hover {
+            color: var(--primary);
+        }
+        
+        /* Header */
+        .page-header {
+            text-align: center;
+            padding: 50px 20px;
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+            color: white;
+        }
+        
+        .page-header h1 {
+            font-size: 2.2rem;
+            margin-bottom: 10px;
+        }
+        
+        .page-header p {
+            opacity: 0.9;
+            font-size: 1.1rem;
+        }
+        
+        /* Content */
+        .content {
+            padding: 50px 20px;
+        }
+        
+        .card {
+            background: var(--card-bg);
+            border-radius: 16px;
+            padding: 40px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+            margin-bottom: 30px;
+        }
+        
+        .card h2 {
+            color: var(--primary);
+            margin-bottom: 20px;
+            font-size: 1.5rem;
+        }
+        
+        .card p {
+            color: var(--text-secondary);
+            margin-bottom: 15px;
+        }
+        
+        .contact-box {
+            background: #e8f5e9;
+            padding: 25px;
+            border-radius: 12px;
+            text-align: center;
+            margin-top: 20px;
+        }
+        
+        .contact-box .email {
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: var(--primary);
+        }
+        
+        .contact-box a {
+            display: inline-block;
+            margin-top: 15px;
+            background: var(--primary);
+            color: white;
+            padding: 12px 30px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: background 0.2s;
+        }
+        
+        .contact-box a:hover {
+            background: var(--primary-light);
+        }
+        
+        .faq-item {
+            border-bottom: 1px solid #eee;
+            padding: 20px 0;
+        }
+        
+        .faq-item:last-child {
+            border-bottom: none;
+        }
+        
+        .faq-item h3 {
+            color: var(--primary);
+            margin-bottom: 10px;
+            font-size: 1.1rem;
+        }
+        
+        .faq-item p {
+            margin-bottom: 0;
+        }
+        
+        /* Footer */
+        footer {
+            background: var(--primary);
+            color: white;
+            padding: 30px 20px;
+            text-align: center;
+        }
+        
+        footer a {
+            color: white;
+            opacity: 0.8;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        
+        footer a:hover {
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <a href="/" class="brand">🃏 Anotador de Manos</a>
+            <div class="links">
+                <a href="/">Inicio</a>
+                <a href="/privacy.html">Privacidad</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="page-header">
+        <h1>🛠️ Centro de Soporte</h1>
+        <p>Estamos acá para ayudarte</p>
+    </div>
+
+    <div class="content">
+        <div class="container">
+            <div class="card">
+                <h2>📱 Sobre la App</h2>
+                <p><strong>Anotador de Manos Poker</strong> es una aplicación diseñada para jugadores de poker que quieren mejorar su juego.</p>
+                <p>Te permite anotar manos rápidamente mientras jugás torneos en vivo, para después estudiarlas y analizar tus decisiones.</p>
+                <p>Características principales:</p>
+                <ul style="color: var(--text-secondary); margin-left: 20px; margin-top: 10px;">
+                    <li>Anotación rápida de manos durante el juego</li>
+                    <li>Organización en álbumes por torneo</li>
+                    <li>Exportación a texto e imagen para compartir</li>
+                    <li>Soporte para múltiples idiomas</li>
+                    <li>Funciona sin conexión a internet</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h2>❓ Preguntas Frecuentes</h2>
+                
+                <div class="faq-item">
+                    <h3>¿Mis manos se guardan en la nube?</h3>
+                    <p>Las manos se guardan localmente en tu dispositivo. Si iniciás sesión, podés sincronizarlas de forma segura.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>¿Puedo usar la app sin suscripción?</h3>
+                    <p>Sí, podés guardar hasta 3 manos gratis. Con la suscripción PRO tenés manos ilimitadas.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>¿Cómo recupero mi suscripción en un nuevo dispositivo?</h3>
+                    <p>Andá a Configuración → Restaurar compras. Asegurate de usar el mismo Apple ID.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>¿Puedo exportar mis manos?</h3>
+                    <p>Sí, desde el detalle de cada mano podés exportar como texto (.txt) o como imagen para compartir.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <h2>📧 Contacto</h2>
+                <p>¿Tenés dudas, sugerencias o encontraste un bug? Escribinos y te respondemos lo antes posible.</p>
+                
+                <div class="contact-box">
+                    <p>Email de soporte:</p>
+                    <p class="email">juanignacioreldanmolinos@gmail.com</p>
+                    <a href="mailto:juanignacioreldanmolinos@gmail.com?subject=Soporte%20-%20Anotador%20de%20Manos%20Poker">
+                        ✉️ Enviar email
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <a href="/">Inicio</a>
+        <a href="/privacy.html">Política de Privacidad</a>
+        <p style="margin-top: 15px; opacity: 0.7; font-size: 0.9rem;">© 2024 Anotador de Manos Poker</p>
+    </footer>
+</body>
+</html>
+
